@@ -1,0 +1,8 @@
+id	desc|n	name|c	icon|c	detail|c	type	max_level	range	power	duration
+Unique ID	Description	Skill name	The displayed icon	Detailed description	Skill type	Max level	The size of the influence range	Skill value	Skill duration(MS) 
+string		string	path	string	byte	int	float	double	float
+id_skill_1	General Skill	key_skill_1	Assets/bundle/atlas/skill_icon_1.png	This is a skill	1	10	20.5	1000.657	1000
+id_skill_2	General Skill	key_skill_2	Assets/bundle/atlas/skill_icon_2.png	This is a skill	2	20	10	200	1600
+id_skill_3	Remote Skill	key_skill_3	Assets/bundle/atlas/skill_icon_3.png	This is a skill	3	30	100.6	300.114	2000
+id_skill_4	Remote Skill	key_skill_4	Assets/bundle/atlas/skill_icon_4.png	This is a skill	4	40	16.53	20.565	3000
+id_skill_5	Defensive Skills	key_skill_5	Assets/bundle/atlas/skill_icon_5.png	This is a skill	5	50	6.6	100	500

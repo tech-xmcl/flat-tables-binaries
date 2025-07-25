@@ -1,0 +1,40 @@
+<Table name="Boss">
+  <Header>
+    <Field>
+      <Name>id</Name>
+      <Comment>Primary Key</Comment>
+      <Type>int</Type>
+    </Field>
+    <Field>
+      <Name>name</Name>
+      <Comment>Character Name</Comment>
+      <Type>string</Type>
+    </Field>
+    <Field>
+      <Name>level</Name>
+      <Comment>Level</Comment>
+      <Type>int</Type>
+    </Field>
+    <Field>
+      <Name>hp</Name>
+      <Comment>Health Points</Comment>
+      <Type>int</Type>
+    </Field>
+  </Header>
+  <Rows>
+    <Row>
+      <index>0</index>
+      <col0>1</col0>
+      <col1>Alice</col1>
+      <col2>5</col2>
+      <col3>100</col3>
+    </Row>
+    <Row>
+      <index>1</index>
+      <col0>2</col0>
+      <col1>Bob</col1>
+      <col2>6</col2>
+      <col3>120</col3>
+    </Row>
+  </Rows>
+</Table>

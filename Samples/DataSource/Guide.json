@@ -1,0 +1,112 @@
+{
+  "table": "Guide",
+  "header": [
+    {
+      "name": "id",
+      "comment": "Unique ID",
+      "type": "string"
+    },
+    {
+      "name": "desc|n",
+      "comment": "Description",
+      "type": ""
+    },
+    {
+      "name": "group_id",
+      "comment": "Group ID",
+      "type": "int"
+    },
+    {
+      "name": "type",
+      "comment": "Guided type",
+      "type": "short"
+    },
+    {
+      "name": "condition_list",
+      "comment": "Custom trigger conditions",
+      "type": "[long]"
+    },
+    {
+      "name": "next_id",
+      "comment": "The next guide",
+      "type": "string"
+    },
+    {
+      "name": "event_id",
+      "comment": "Event ID",
+      "type": "int"
+    },
+    {
+      "name": "is_force",
+      "comment": "Whether to enforce guidance",
+      "type": "bool"
+    },
+    {
+      "name": "finish_reward@Reward.id",
+      "comment": "Rewards given after completion",
+      "type": "long"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "col0": "id_guide_1",
+      "col1": "Novice Guide",
+      "col2": 1,
+      "col3": 0,
+      "col4": "10001,20003",
+      "col5": "id_guide_2",
+      "col6": 50001,
+      "col7": "TRUE",
+      "col8": 30001001
+    },
+    {
+      "index": 1,
+      "col0": "id_guide_2",
+      "col1": "Novice Guide",
+      "col2": 1,
+      "col3": 1,
+      "col4": "10001,20004",
+      "col5": "id_guide_3",
+      "col6": 50002,
+      "col7": "FALSE",
+      "col8": 30001002
+    },
+    {
+      "index": 2,
+      "col0": "id_guide_3",
+      "col1": "Novice Guide",
+      "col2": 1,
+      "col3": 2,
+      "col4": "10001,20005",
+      "col5": "id_guide_4",
+      "col6": 50003,
+      "col7": "TRUE",
+      "col8": 30001003
+    },
+    {
+      "index": 3,
+      "col0": "id_guide_4",
+      "col1": "Novice Guide",
+      "col2": 2,
+      "col3": 3,
+      "col4": "10001,20006",
+      "col5": "id_guide_5",
+      "col6": 50004,
+      "col7": "FALSE",
+      "col8": 30001004
+    },
+    {
+      "index": 4,
+      "col0": "id_guide_5",
+      "col1": "Novice Guide",
+      "col2": 2,
+      "col3": 4,
+      "col4": "10001,20007",
+      "col5": "",
+      "col6": 50005,
+      "col7": "TRUE",
+      "col8": 30001005
+    }
+  ]
+}

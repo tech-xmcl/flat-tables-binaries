@@ -1,0 +1,8 @@
+id|c,desc|n,layer,type,open_anim,prefab_name,show_help_btn,is_global
+Unique ID,Description,Interface level ID,Show type,Play the animation,Interface resources,Whether to display the help button,Whether it is the global UI
+string,,string,short,string,path,bool,bool
+ui_resource_1,Login ui,top_layer,10,open_ui_anim,Assets/Bundle/prefab_login.prefab,FALSE,FALSE
+ui_resource_2,Main ui,hud_layer,20,open_ui_anim,Assets/Bundle/prefab_main.prefab,FALSE,TRUE
+ui_resource_3,Task ui,middle_layer,30,open_ui_anim,Assets/Bundle/prefab_task.prefab,TRUE,TRUE
+ui_resource_4,Level ui,middle_layer,40,open_ui_anim,Assets/Bundle/prefab_level.prefab,TRUE,FALSE
+ui_resource_5,Activity ui,middle_layer,50,open_ui_anim,Assets/Bundle/prefab_activity.prefab,TRUE,TRUE

@@ -1,0 +1,25 @@
+table: Building
+header:
+  - name: id
+    comment: Primary Key
+    type: int
+  - name: name
+    comment: Building Name
+    type: string
+  - name: level
+    comment: Level
+    type: int
+  - name: defense 
+    comment: Defense Value
+    type: int
+rows:
+  - index: 0
+    col0: 1
+    col1: Alice
+    col2: 5
+    col3: 100
+  - index: 1
+    col0: 2
+    col1: Bob
+    col2: 6
+    col3: 120
